@@ -1,12 +1,15 @@
 # MCP Tool License Gate
 
-Paid remote MCP for MCP tool license checks, vendor policy review, allow/review/deny JSON, alternatives, and license receipts.
+MCP Tool License Gate is a paid remote MCP gate for tool name, vendor URL, license text, intended use, customer policy, data class, alternatives, and license receipts.
 
 Website: https://mcptoollicense.clauxel.com/
+Docs pattern reference: https://github.com/clauxel/MiroFish
+Primary keyword: MCP tool license check
+Type: MCP
+Default plan: Team
 MCP endpoint: https://mcptoollicense.clauxel.com/mcp
 Server card: https://mcptoollicense.clauxel.com/server-card.json
-Docs: https://github.com/clauxel/mcp-tool-license-gate
-
-Use case: Check third-party tool rights before an agent calls them.
-Authentication: Bearer token required for production use.
+Registry name: com.clauxel.mcptoollicense/mcptoollicense-mcp
 Tools: check_tool_license, validate_vendor_policy, issue_license_receipt, suggest_allowed_alternative, export_license_audit
+
+Public boundary: docs-only repository; no production source code or secrets.
