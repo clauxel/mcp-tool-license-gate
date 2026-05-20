@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.clauxel.mcptoollicense/mcptoollicense-mcp",
-  "description": "MCP Tool License Gate is a paid remote MCP gate for tool name, vendor URL, license text, intended use, customer policy, data class, alternatives, and license receipts.",
+  "description": "Check third-party tool rights before an agent calls them.",
   "version": "1.0.0",
   "website_url": "https://mcptoollicense.clauxel.com/",
   "repository": {
