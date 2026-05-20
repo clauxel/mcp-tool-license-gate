@@ -1,13 +1,11 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.clauxel.mcptoollicense/mcptoollicense-mcp",
-  "description": "MCP Tool License Gate is a paid remote MCP gate for tool name, vendor URL, license text, intended use, customer policy, data class, alternatives, and license receipts.",
+  "title": "MCP Tool License Gate",
+  "description": "Paid remote MCP for MCP tool license checks, vendor policy review, allow/review/deny JSON, alternatives, and license receipts.",
   "version": "1.0.0",
-  "website_url": "https://mcptoollicense.clauxel.com/",
-  "repository": {
-    "url": "https://github.com/clauxel/mcp-tool-license-gate",
-    "source": "github"
-  },
+  "websiteUrl": "https://mcptoollicense.clauxel.com/",
+  "documentationUrl": "https://github.com/clauxel/mcp-tool-license-gate",
+  "serverCardUrl": "https://mcptoollicense.clauxel.com/server-card.json",
   "remotes": [
     {
       "type": "streamable-http",
@@ -15,17 +13,15 @@
       "headers": [
         {
           "name": "Authorization",
-          "description": "Bearer token from the product website.",
-          "is_required": true,
-          "is_secret": true
+          "description": "Bearer token from the product website."
         }
       ]
     }
   ],
-  "_meta": {
-    "io.modelcontextprotocol.registry/publisher-provided": {
-      "title": "MCP Tool License Gate",
-      "server_card_url": "https://mcptoollicense.clauxel.com/server-card.json"
-    }
-  }
+  "tags": [
+    "mcp",
+    "license-check",
+    "tool-governance",
+    "remote-mcp"
+  ]
 }
